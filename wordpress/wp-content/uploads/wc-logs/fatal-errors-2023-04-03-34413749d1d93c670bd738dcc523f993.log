@@ -1,0 +1,13 @@
+2023-04-03T11:10:33+00:00 CRITICAL Uncaught Error: Call to undefined function send_admin_notification() in C:\xampp\htdocs\store\wordpress\wp-content\plugins\contact\contact-plugin.php:63
+Stack trace:
+#0 C:\xampp\htdocs\store\wordpress\wp-includes\class-wp-hook.php(308): example_form_capture('')
+#1 C:\xampp\htdocs\store\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\store\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\store\wordpress\wp-settings.php(623): do_action('init')
+#4 C:\xampp\htdocs\store\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\store\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\store\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\store\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\store\wordpress\wp-content\plugins\contact\contact-plugin.php on line 63
+
